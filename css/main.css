@@ -1,0 +1,29 @@
+body{
+
+}
+
+#back-body{
+	background-image: url(../img/background_ld.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 863px;
+}
+
+#bars .bar1{
+	background-color: #933589;
+	display: block;
+	width: 33.3%;
+	height: 8px;
+}
+#bars .bar2{
+	background-color: #e20520;
+	display: block;
+	width: 33.3%;	
+	height: 8px;
+}
+#bars .bar3{
+	background-color: #f8b033;
+	display: block;
+	width: 33.3%;	
+	height: 8px;
+}
