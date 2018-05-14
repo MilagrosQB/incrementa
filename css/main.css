@@ -2,6 +2,7 @@
 	box-sizing: border-box;
   margin: 0px;
   padding: 0px;
+ font-family: Verdana;
 }
 
 body{
@@ -15,9 +16,19 @@ body{
 	background-image: url(../img/background_mb.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;
-	padding: 2% 0%;
-	height: 570px;
+	padding: 4% 0%;
+	height: 600px;
 	position: relative;
+}
+#back-body .row.row-z.pad-10 {
+	margin-bottom: 8%;
+}
+#back-body .sub-tittle{
+ font-size: 18px;
+ text-align: left;
+ margin-left: -4%;
+ margin-top: -1%;
+ color: #5a0650;
 }
 #back-body div li{
 	list-style: none;
@@ -28,17 +39,18 @@ body{
 }
 #back-body div li a{
 	color: #000000;
+	font-size: 10px;
 	border-bottom: 2px solid
 }
 
 #back-body .box-form{
 	background-color: #ffffff;
 	text-align: center;
-	padding: 5% 6%;
-  height: 190px;
+	padding: 5% 4%;
+  height: 215px;
   margin: 0% 5%;
   position: absolute;
-  top: 208px;
+  top: 165px;
 }
 #back-body .row-z{
 	margin-right: 0px;
@@ -77,6 +89,70 @@ body{
 .legal-title{
 	padding: 5% 0%;
 }
+.img-legal{
+	height: 25px;
+  margin-left: -25%;
+}
 .fsize-18{
 	font-size: 18px;
+}
+.fsize-12{
+	font-size: 12px;
+}
+
+@media (min-width: 1200px) {
+	#back-body{
+		background-image: url(../img/background_dt.jpg);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		padding: 2% 0%;
+    height: 594px;
+		position: relative;
+	}	
+	#back-body .row.row-z.pad-10 {
+    margin: 0% 14% 1%;
+  }
+	#back-body div li {
+	    list-style: none;
+	    display: inline-block;
+	    padding-right: 4%;
+	    text-transform: uppercase;
+	}
+	#back-body div li a{
+		color: #000000;
+		font-size: 12px;
+		border-bottom: 2px solid
+	}	
+	#back-body .img-responsive {
+		float: right;
+		width: 55%;
+	}
+	#back-body .sub-tittle{
+		 font-size: 25px;
+		 text-align: left;
+		 margin-left: -7%;
+		 margin-top: -1%;
+		 color: #5a0650;
+	}
+	#back-body .box-form{
+		background-color: #ffffff;
+		text-align: center;
+		padding: 3% 2%;
+    height: 215px;
+    margin: 0% 19%;
+	  position: absolute;
+	  top: 0px;
+	  right: 11%;
+	}		
+	#legal-zone{
+		padding: 0% 5%;
+	}
+	.legal-title{
+		padding: 2% 0% 1%;
+	}
+	.img-legal{
+		height: 25px;
+    margin-left: -55%;
+	}
+
 }
